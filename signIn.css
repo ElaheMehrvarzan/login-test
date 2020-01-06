@@ -1,0 +1,69 @@
+body{
+	height: 100vh;
+	margin: 0;
+	background: #f9f9f9;
+}
+
+#mainDiv{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.input{
+	width: 50%;
+	padding: 10px;
+	padding-left: 50px ;
+	margin: 10PX;
+	border-radius: 5px;
+	border: 1px solid #e2e0e0;
+	background: #f9f9f9;
+
+}
+#logo{
+	width: 200px;
+	margin: 5%;
+}
+#signIn{
+	width: 56%;
+	padding: 10px;
+	margin: 10PX;
+	border-radius: 5px;
+	border: 1px solid #e2e0e0;
+	background: #fff;
+	box-shadow: 1px 1px 10px #929292;
+	cursor: pointer;
+}
+#username{
+	background-image: url(../images/usernameIcon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 10px;			
+}
+#password{
+	background-image: url(../images/passwordIcon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 10px;			
+}
+#forgotPassword{
+	position: absolute;
+	   bottom: 70px;
+	cursor: pointer;
+}
+#signUp{
+	width: 56%;
+	padding: 10px;
+	border-radius: 5px 5px 0px 0px;
+	border: 1px solid #3f51b5;
+	background: #3F51B5;
+	box-shadow: 1px 1px 10px #929292;
+	bottom: 0px;
+	position: absolute;
+	color: #fff;
+	cursor: pointer;
+}
+.errorTXT{
+	color: red;
+	display: none;
+}
